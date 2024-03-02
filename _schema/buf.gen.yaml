@@ -1,8 +1,0 @@
-version: v1
-plugins:
-  - plugin: go
-    out: ../domains/_api
-    opt: paths=source_relative
-  - plugin: go-grpc
-    out: ../domains/_api
-    opt: paths=source_relative
